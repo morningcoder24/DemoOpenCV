@@ -100,14 +100,6 @@ class GUI:
         img_tk = ImageTk.PhotoImage(img_display)
         self.image_label.configure(image=img_tk)
         self.image_label.image = img_tk
-
-
-
-
-
-
-
-
 class xulyvideo:
     def __init__(self, parent,filename):
         self.video_label = None
